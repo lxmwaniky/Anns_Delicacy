@@ -6,8 +6,8 @@ body, h1, h2, h3, p, ul {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #ffffff; /* White text */
 }
 
 .container {
@@ -24,7 +24,7 @@ header {
 .logo a {
     text-decoration: none;
     font-size: 24px;
-    color: #335233;
+    color: #ffffff; /* White text */
     font-weight: bold;
 }
 
@@ -40,8 +40,12 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #cccccc; /* Light gray text */
     font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow; /* White text */
 }
 
 .main {
@@ -51,8 +55,8 @@ nav a {
 .hero {
     background: url('../images/hero-background.jpg');
     background-size: cover;
-    background-position: center;
-    color: #fff;
+    background-position: 50% 40%;
+    color: yellow; /* White text */
     text-align: center;
     padding: 100px 0;
 }
@@ -67,8 +71,8 @@ nav a {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #333333; /* Dark gray footer background */
+    color: #ffffff; /* White text */
     text-align: center;
     padding: 10px 0;
     position: fixed;
