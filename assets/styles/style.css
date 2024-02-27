@@ -30,7 +30,7 @@ nav {
 .logo a {
     text-decoration: none;
     font-size: 30px;
-    color: #ffffff; /* White text */
+    color: #ff9900; /* White text */
     font-weight: bold;
 }
 
@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white /* White text */
+    color: #ff9900; /* White text */
 }
 
 .main {
@@ -90,6 +90,37 @@ nav a:hover {
 .about p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+.order {
+    color: #fff; /* White text */
+    padding: 40px;
+    text-align: center;
+}
+
+.order h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.order p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.order .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900; /* Orange button color */
+    color: #fff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.order .btn:hover {
+    background-color: #e68300; /* Darker orange color on hover */
 }
 
 .menu {
