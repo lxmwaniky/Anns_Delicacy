@@ -17,7 +17,6 @@ body {
 }
 
 header {
-    background-color: #fff;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -25,7 +24,7 @@ header {
 .logo a {
     text-decoration: none;
     font-size: 24px;
-    color: #333;
+    color: #335233;
     font-weight: bold;
 }
 
@@ -50,7 +49,9 @@ nav a {
 }
 
 .hero {
-    background: url
+    background: url('../images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
     color: #fff;
     text-align: center;
     padding: 100px 0;
