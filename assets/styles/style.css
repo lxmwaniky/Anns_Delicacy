@@ -32,7 +32,7 @@ nav {
 
 .logo a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
     color: #ff9900; /* White text */
     font-weight: bold;
 }
@@ -69,7 +69,7 @@ nav a:hover {
     background: url('../images/hero-background.jpg');
     background-size: cover;
     background-position: 50% 40%;
-    color: #ffffff; /* White text */
+    color: #ff9900;
     text-align: center;
     padding: 100px 0;
 }
