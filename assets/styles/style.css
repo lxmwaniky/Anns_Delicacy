@@ -179,7 +179,6 @@ nav a:hover {
 }
 
 .order label {
-    display: block;
     margin-bottom: 5px;
     color: #fff; /* White text */
 }
@@ -200,7 +199,6 @@ nav a:hover {
 }
 
 .order input[type="text"],
-.order input[type="email"],
 .order input[type="tel"],
 .order input[type="number"],
 .order select {
