@@ -85,6 +85,41 @@ nav a:hover {
     line-height: 1.6;
 }
 
+.menu {
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 40px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray text */
+}
+
+.menu-item {
+    margin-top: 40px;
+}
+
+.menu-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666; /* Medium gray text */
+}
+
 footer {
     background-color: #1a1a1b; /* Dark gray footer background */
     color: #ffffff; /* White text */
