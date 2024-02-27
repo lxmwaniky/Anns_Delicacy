@@ -18,6 +18,12 @@ body {
 header {
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .logo a {
@@ -86,7 +92,8 @@ nav a:hover {
 }
 
 .menu {
-    background-color: #f4f4f4; /* Light gray background */
+    background-color: #1a1a1a; /* Light gray background */
+    color: #ffffff; /* White text */
     padding: 40px;
     text-align: center;
 }
@@ -97,13 +104,16 @@ nav a:hover {
     color: #333; /* Dark gray text */
 }
 
-.menu-item {
-    margin-top: 40px;
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-item img {
     width: 100%;
-    max-width: 300px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -120,8 +130,9 @@ nav a:hover {
     color: #666; /* Medium gray text */
 }
 
+
 footer {
-    background-color: #1a1a1b; /* Dark gray footer background */
+    background-color: #1a1a1a; /* Dark gray footer background */
     color: #ffffff; /* White text */
     text-align: center;
     padding: 10px 0;
