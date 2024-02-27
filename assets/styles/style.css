@@ -169,6 +169,95 @@ nav a:hover {
     color: #666; /* Medium gray text */
 }
 
+.order form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.order .form-group {
+    margin-bottom: 20px;
+}
+
+.order label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff; /* White text */
+}
+
+.order form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.order .form-group {
+    margin-bottom: 20px;
+}
+
+.order label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff; /* White text */
+}
+
+.order input[type="text"],
+.order input[type="email"],
+.order input[type="tel"],
+.order input[type="number"],
+.order select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+.order button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900; /* Orange button color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order button[type="submit"]:hover {
+    background-color: #e68300; /* Darker orange color on hover */
+}
+
+.order select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+.order button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900; /* Orange button color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order button[type="submit"]:hover {
+    background-color: #e68300; /* Darker orange color on hover */
+}
 
 footer {
     background-color: #1a1a1a; /* Dark gray footer background */

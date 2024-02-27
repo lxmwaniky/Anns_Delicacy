@@ -71,6 +71,45 @@
                         <p>Enjoy our delicious rice and beef stew</p>
                 </div>
             </section>
+            <section id="order" class="order">
+                <h2>Order Now</h2>
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="meal">Meal</label>
+                        <select name="meal" id="meal" required>
+                            <option value="Chapati and Beef Stew">Chapati and Beef Stew</option>
+                            <option value="Ugali and Fish">Ugali and Fish</option>
+                            <option value="Chicken and Rice">Chicken and Rice</option>
+                            <option value="Chips and Chicken">Chips and Chicken</option>
+                            <option value="Chapati and Beans">Chapati and Beans</option>
+                            <option value="Rice and Beef Stew">Rice and Beef Stew</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" name="quantity" id="quantity" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="delivery">Delivery</label>
+                        <input type="checkbox" name="delivery" id="delivery">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Order</button>
+                    </div>
+                </form>
+            </section>
         </main>
         <footer>
             <p>&copy; 2024 Alex Mwaniki</p>
