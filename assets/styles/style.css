@@ -25,7 +25,9 @@ header {
 nav {
     text-align: center;
     padding-bottom: 20px;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-between; /* Align items to the start and end of the container */
+    align-items: center;
 }
 
 .logo a {
@@ -53,6 +55,10 @@ nav a {
 
 nav a:hover {
     color: #ff9900; /* White text */
+}
+
+.order {
+    margin-left: auto; /* Push the section to the far right */
 }
 
 .main {
