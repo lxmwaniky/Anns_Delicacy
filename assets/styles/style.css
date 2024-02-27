@@ -22,7 +22,7 @@ header {
 
 .logo a {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 30px;
     color: #ffffff; /* White text */
     font-weight: bold;
 }
@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #333333; /* Dark gray footer background */
+    background-color: #1a1a1b; /* Dark gray footer background */
     color: #ffffff; /* White text */
     text-align: center;
     padding: 10px 0;
